@@ -1,0 +1,6 @@
+framework module Pods_MiniApp_Alamofire_NewsAPI {
+  umbrella header "Pods-MiniApp-Alamofire-NewsAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
