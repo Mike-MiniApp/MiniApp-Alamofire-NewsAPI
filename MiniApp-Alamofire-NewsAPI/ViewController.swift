@@ -18,7 +18,7 @@ class ViewController: UIViewController, CatchNewsDataDelegate {
     @IBOutlet weak var indexSegmentedControl: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
-        requestNewsData.delegete = self
+        requestNewsData.delegate = self
     }
     
     func catchNewsData(title: String, url: String, urlToImage: String, publishedAt: String) {

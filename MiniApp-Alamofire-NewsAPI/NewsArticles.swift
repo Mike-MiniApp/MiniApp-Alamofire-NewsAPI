@@ -6,12 +6,13 @@
 //
 
 import Foundation
-struct Articles: Codable{
-    let articles: [NewsData]
+struct Article: Codable {
+    var articles: [ArticleInfo]
 }
-struct NewsData: Codable{
-    let title: String
-    let url: String
-    let urlToImage: String
-    let publishedAt: String
+struct ArticleInfo: Codable {
+    let publishedAt: String?
+    let title: String?
+    let url: String?
+    let urlToImage: String?
 }
+
